@@ -1,1 +1,11 @@
 /* Place CSS styles here */
+
+body{
+    font-family: "Roboto Slab", serif;
+}
+.pre-bday-outer {
+    background-color: lightgreen;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
