@@ -34,13 +34,14 @@ h2{font-family: "freight-big-pro", serif;
 .variety-various{
     font-family: "freight-big-pro", sans-serif;
     font-size: 30px;
+    font-weight: 100;
     text-align: center;
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 100px;
     font-style: normal;
-    color: rgb(230, 230, 230);
+    color: color(display-p3 1 0.96 0.05);
     text-align: center;    
 }
 .variety-left-italic{
@@ -124,14 +125,8 @@ font-style: normal;
 font-weight: 200px;
 font-style: normal;
     font-size: 100px;
-   margin-left: 200px;
+   margin-left: 260px;
    color: rgb(19, 19, 19);
-   padding-top: 100px;
-   background-clip: border-box;
-   background-color: color(display-p3 1 0.96 0.05);
-   padding-bottom: 24px;
-   padding-left: 36px;
-   padding-right: 36px;
    padding-top: 100px;
 }
 .twosides-right{
@@ -155,7 +150,13 @@ font-style: normal;
 font-size: 25px;
 text-align:left;
 margin-top: 50px;
-margin-left: 200px;
+margin-left: 240px;
+background-clip: border-box;
+    background-color: color(display-p3 1 0.96 0.05);
+    padding-bottom: 24px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 24px;
 }
 .body-right{
     font-family: "freight-big-pro", serif;
@@ -166,6 +167,13 @@ text-align:left;
 margin-top: 50px;
 margin-right: 100px;
 margin-left: 175px;
+background-clip: border-box;
+    background-color: color(display-p3 1 0.96 0.05);
+    padding-bottom: 24px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 24px;
+    column-width: auto;
 }
 .body-sides{
     display: flex;
